@@ -51,6 +51,7 @@ module.exports =  function (context, req) {
             if(error) {
                 return console.log('Unable to retreive user')
             }
+            console.log('This is a happy moment')
             console.log('Retreived Data : ' + result)    
 
             context.res = {
